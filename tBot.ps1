@@ -89,8 +89,8 @@ if ($percentFree -le 48) {
     Add-Content -Path $logFile -Value '[INFO] Sending Telegram notification'
  
     $messageSplat = @{
-        BotToken    = "1840927549:AAHk5SqytEAtrEgfaZ2t_89misYIU-9wnC0"
-        ChatID      = "-474156375"
+        BotToken    = "your botToken"
+        ChatID      = "your chatID"
         Message     = "[LOW SPACE] Drive at: $percentFree%"
         ErrorAction = 'Stop'
     }
