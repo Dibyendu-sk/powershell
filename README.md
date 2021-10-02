@@ -1,4 +1,4 @@
-telegramBot /powershell
+# telegramBot /powershell
 
 
 By running this script you will be notified when a drive in your home network is running low on space. 
