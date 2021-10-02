@@ -1,4 +1,3 @@
-# powershell
 telegramBot /powershell
 
 
